@@ -1,48 +1,25 @@
-/* Basic page layout */
+
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #f8f8f8;
-  margin: 0;
-  padding: 20px;
+  margin: 50px;
 }
 
-/* Input and button */
-input {
+input, button {
+  margin: 10px;
   padding: 10px;
-  width: 60%;
-  max-width: 300px;
-  margin: 10px 0;
   font-size: 16px;
 }
 
-button {
-  padding: 10px 18px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Certificate style */
 .certificate {
-  border: 5px solid #444;
-  padding: 40px;
-  margin-top: 40px;
-  background: white;
-  width: 70%;
-  max-width: 600px;
+  border: 2px solid #000;
+  padding: 30px;
+  margin-top: 30px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .hidden {
   display: none;
-}
-
-.cert-content h2 {
-  font-size: 28px;
-}
-
-.cert-content h1 {
-  font-size: 36px;
-  margin: 20px 0;
 }
