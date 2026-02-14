@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Certificate Generator</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h1>Certificate Generator</h1>
+
+    <!-- Input for user name -->
+    <input
+      type="text"
+      id="nameInput"
+      placeholder="Enter your name"
+    />
+
+    <!-- Button to generate -->
+    <button onclick="generateCertificate()">
+      Generate Certificate
+    </button>
+  </div>
+
+  <!-- Certificate layout -->
+  <div id="certificate" class="certificate hidden">
+    <div class="cert-content">
+      <h2>Certificate of Completion</h2>
+      <p>This is proudly presented to</p>
+      <h1 id="Shamsiyya Ahmad"></h1>
+      <p>For successfully completing your project!</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
